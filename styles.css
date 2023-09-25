@@ -1,2 +1,29 @@
+#div{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(198, 125, 125, 0.455);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.Form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: beige;
 
+}
+#name{
+    background-color: rgba(232, 129, 11, 0.298);
+}
+#phone{
+    background-color: rgba(232, 129, 11, 0.298);
+}
+#address{
+    background-color: rgba(232, 129, 11, 0.298);
+#multiSelect{
+    background-color: rgba(232, 129, 11, 0.298);
+}
+#submit{
+	background-color: rgba(232, 129, 11, 0.298);
+}
 /* Your CSS Code here. */

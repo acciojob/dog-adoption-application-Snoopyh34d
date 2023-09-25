@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+<body class="Form">
+    <div id="div">
+        <form action="#" method="post">
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+            <label for="name">Name : </label>
+            <input type="text" name="Name" id="name" placeholder="Name">
+            <br>
+    
+            <label for="phone">Phone Number : </label>
+            <input type="number" name="Phone" id="phone" placeholder="Phone Number">
+            <br>
+    
+            <label for="address">Address : </label>
+            <input type="text" name="Address" id="address" placeholder="Address">
+            <br>
+    
+            <label for="Lived">Have you ever lived with a Dog before? </label>
+            <input type="checkbox" name="Lived" id="checkbox">
+            <br>
+    
+            <label for="breeds">Please select your preferred breeds</label>
+            <select name="breeds" id="multiSelect"  multiple>
+                <option value="bulldog">Bulldog</option>
+                <option value="beagle">Beagle</option>
+                <option value="great Dane">Great Dane</option>
+            </select>
+            <br>
+    
+            <button value="Submit" id="submit">Submit</button>
+    
+        </form>
 
+
+    </div>
 </body>
-
 </html>
